@@ -20,7 +20,15 @@ console.log(students.reverse());
 }
 
 // # 4 incomplete
+var array = [];
 for (i=0; i < students.length; i++){
-  students[i] += students[i];
-console.log(students[i]);
+  array.push(students[i]);
+  array.push(students[i]);
+}
+
+array.shift();
+array.pop();
+
+for (i=0; i<array.length; i++){
+    console.log(array[i]);
 }
