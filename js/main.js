@@ -19,7 +19,7 @@ for (i=0; i < 1; i++){
 console.log(students.reverse());
 }
 
-// # 4 incomplete
+// # 4 Working
 var array = [];
 for (i=0; i < students.length; i++){
   array.push(students[i]);
